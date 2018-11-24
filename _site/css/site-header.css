@@ -1,0 +1,37 @@
+.site-header{
+    text-align: center;
+    position: fixed;
+    width: calc(100% - 4rem * 2);
+    top: 0px;
+    padding-top: 53px;
+
+    background: white;
+    box-shadow: 0 4px 10px -2px gray;
+}
+
+.site-branding{
+    display: flex;
+    flex-direction: column;
+}
+
+.site-title{
+    font-size: 3em;
+    text-transform: uppercase;
+    padding-bottom: .5rem;
+}
+
+.site-title::after{
+    content: "";
+    width: 20rem;
+    margin-left: calc(50% - 20rem / 2);
+    display: block;
+    height: 2px;
+    margin-bottom: .2rem;
+    background: rgba(51,51,51,0.4);
+}
+
+.site-description{
+    font-style: italic;
+    font-family: serif;
+    font-size: 120%;
+}
